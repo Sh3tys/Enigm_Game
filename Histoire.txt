@@ -1,0 +1,69 @@
+Jeu d'enigme a travers le temps
+le joueurs incarne le role d'une fille 
+
+le jeux se compose de 5 chapitre
+
+1-Rencontre
+
+2-histoire folle d'amour
+
+3-mariage
+
+Final- Un reveille
+
+            DETAILLE
+
+Page Principale:    LE HUB
+La page principale est représentée par une image 
+d’un meuble avec des lettres sur chaque tiroir. 
+Chaque lettre correspond à un chapitre, mais le 
+tiroir est verrouillé. L’utilisateur doit résoudre 
+une énigme simple pour obtenir le code qui permet 
+d’ouvrir le tiroir et accéder au chapitre suivant.
+
+
+Introduction:
+Niuliki, une jeune femme mène une vie ordinaire, sans éclat, où ses seules joies proviennent 
+des moments passés avec ses cousines. Lors d’une sortie au parc, son regard croise celui d’un 
+garçon mystérieux qui semble surgir d’un autre monde. Cette rencontre devient le point de bascule, 
+plongeant la jeune femme dans un rêve étrange. Elle se réveille dans le passé, au début de leur 
+histoire, avec un sentiment étrange : elle doit revivre ces moments pour comprendre ce qu’elle a 
+perdu.
+
+
+Chapter 1:
+Elle se retrouve dans son école secondaire, le jour où tout a commencé. 
+Il est là, ce garçon mystérieux, le sourire aux lèvres. La jeune femme se souvient 
+à quel point son cœur battait pour lui, mais aussi des maladresses qui l'ont empêchée 
+d’aller lui parler au départ. Cette fois, elle doit saisir l'occasion.
+
+ENIGME:
+1-Le garcon lui dit de venir a cette adresse et une lettre lui est donnée avec un code secret
+(Lettre mélanger avec le code césar 21)
+2- elle rentra et voit des photo de eux deux du future elel doit les remettre en place
+pour savoir ce qui va se passer
+3- Mais une photo floux elle devra decouvrir les couleur préférer du garcon 
+4-elle se rendit a l'adresse mais un code sous forme de grille elle doit trouver le bon mot
+5- choix de bonne phrase a lui dire
+
+
+
+Chapter 2: 
+
+
+Chapter 3: 
+
+
+Chapter Final: 
+Juste apres avoir eu la bague au doigt elle se reveilla et 
+se rappela que se garcon elle avait quitté juste avant cependant
+un esprit a elle le soleil qui a toujours etait la pour l'aidé 
+dans sont reve va se rendre compte que enft la vie qu'elle viens de vivre 
+etait dans un reve et que le mec evec qui elle s'était marier c'etait
+un mec qu'elle venait de quitté a cause de sont départ pour vers
+un autre pays pour c'est etudes elle va donc faire un choix
+de retourner avec lui pour vivre les momemts qu'ils ont passe dans c'est
+reve ou laissé et reprendre sa vie.
+
+
+
