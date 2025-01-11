@@ -53,65 +53,19 @@ main {
     line-height: 1.8;
 }
 
-.introduction, .highlight, .dream {
-    background: #fff7f7;
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    margin-bottom: 2rem;
+/* Chapitres */
+#image-container h2 {
+    margin: 0; /* Pas de marge en bas pour rapprocher le span */
 }
 
-.highlight {
-    background: #ffd7a3;
+#image-container span {
+    display: block;  /* Rendre le span un élément block */
+    text-align: center;  /* Centrer le texte */
+    font-size: 1.2rem; /* Taille du texte */
+    margin-top: 0.2rem; /* Marge légère au-dessus du span */
+    color: #6a4f47; /* Couleur douce */
 }
 
-.dream {
-    background: #ffe0b3;
-}
-
-.highlight h2, .dream h2 {
-    text-align: center;
-    font-size: 1.8rem;
-    margin-bottom: 1rem;
-}
-
-.highlight h2 {
-    color: #d2691e;
-}
-
-.dream h2 {
-    color: #ff4500;
-}
-
-.start {
-    text-align: center;
-    margin-top: 2rem;
-    position: relative;
-}
-
-#btn-start {
-    padding: 10px 20px;
-    font-size: 1.2rem;
-    background-color: #ff7f50;
-    border: none;
-    border-radius: 5px;
-    color: white;
-    cursor: pointer;
-    transition: opacity 0.5s ease, transform 0.5s ease;
-}
-
-#btn-start:hover {
-    background-color: #d2691e;
-}
-
-#code-span {
-    font-size: 1.5rem;
-    color: #333;
-    transition: opacity 0.5s ease;
-    opacity: 0;
-}
-
-/* Style pour l'image clickable */
 #image-container {
     text-align: center;
     margin-top: 2rem;
@@ -188,6 +142,7 @@ main {
     background-color: #666;
 }
 
+/* Style pour le dernier chapitre */
 #chapterFinal {
     margin-top: 2rem;
 }
@@ -199,7 +154,6 @@ main {
 #chapterFinal .clickable-image {
     border: 3px solid #ff4500; /* Ajouter un bord pour le final */
 }
-
 
 footer {
     text-align: center;
@@ -232,5 +186,3 @@ footer {
         transform: translateY(0);
     }
 }
-
-
