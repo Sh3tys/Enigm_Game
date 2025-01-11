@@ -1,43 +1,39 @@
-// Sélection des éléments HTML
-const clickableImages = document.querySelectorAll('.clickable-image');
-const popups = document.querySelectorAll('.popup');
-const closePopupButtons = document.querySelectorAll('.close-popup');
-const submitCodeButtons = document.querySelectorAll('.submit-code');
-const codeInputs = document.querySelectorAll('[id^="code-input"]');
+const clickableImage = document.getElementsByClassName('clickable-image');
+const popup = document.getElementById('popup');
+const closePopupButton = document.getElementById('close-popup');
+const submitCodeButton = document.getElementById('submit-code');
+const codeInput = document.getElementById('code-input');
 
 // Fonction pour ouvrir la popup
-clickableImages.forEach((image) => {
-    image.addEventListener('click', function() {
-        const popupId = image.getAttribute('data-popup');
-        const popup = document.getElementById(popupId);
+for (let i = 0; i < clickableImage.length; i++) {
+    clickableImage[i].addEventListener('click', function() {
         popup.style.display = 'flex';
     });
-});
+}
 
 // Fonction pour fermer la popup
-closePopupButtons.forEach((button) => {
-    button.addEventListener('click', function() {
-        const popupId = button.getAttribute('data-popup');
-        const popup = document.getElementById(popupId);
-        popup.style.display = 'none';
-    });
+closePopupButton.addEventListener('click', function() {
+    popup.style.display = 'none';
 });
 
 // Fonction pour vérifier le code
-submitCodeButtons.forEach((button) => {
-    button.addEventListener('click', function() {
-        const popupId = button.getAttribute('data-popup');
-        const codeInput = document.getElementById(`code-input${popupId.charAt(popupId.length - 1)}`);
-        const enteredCode = codeInput.value.trim();
+submitCodeButton.addEventListener('click', function() {
+    const enteredCode = codeInput.value.trim();
 
-        if (enteredCode === '2648') {
-            window.location.href = `./chapter${popupId.charAt(popupId.length - 1)}.html`;
-        } else {
-            const popup = document.getElementById(popupId);
-            popup.style.backgroundColor = "red";
-            setTimeout(function() {
-                popup.style.backgroundColor = "transparent";
-            }, 200);
-        }
-    });
+    if (enteredCode === '2648') {
+        window.location.href = "./chapter1.html";
+    } else if (enteredCode === '8462') {
+        window.location.href = "./chapter2.html";
+    } else if(enteredCode === '973164'){
+        window.location.href = "./chapter3.html";
+    } else if (enteredCode === 'love'){
+        window.location.href = "./chapterFinal.html";
+    } else {
+        popup.style.backgroundColor = "red";
+        setTimeout(function() {
+            popup.style.backgroundColor = "transparent";
+        }, 200);
+    }
 });
+
+     

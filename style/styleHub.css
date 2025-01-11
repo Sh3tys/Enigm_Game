@@ -111,38 +111,6 @@ main {
     opacity: 0;
 }
 
-footer {
-    text-align: center;
-    padding: 1rem;
-    background: #ff7f50;
-    color: white;
-    margin-top: 2rem;
-    font-size: 0.9rem;
-}
-
-/* Animations */
-@keyframes fadeInDown {
-    from {
-        opacity: 0;
-        transform: translateY(-50px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-@keyframes fadeInUp {
-    from {
-        opacity: 0;
-        transform: translateY(50px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
 /* Style pour l'image clickable */
 #image-container {
     text-align: center;
@@ -219,4 +187,37 @@ footer {
 .popup button#close-popup:hover {
     background-color: #666;
 }
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #ff7f50;
+    color: white;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}
+
+/* Animations */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 

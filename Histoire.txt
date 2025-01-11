@@ -31,7 +31,7 @@ histoire, avec un sentiment étrange : elle doit revivre ces moments pour compre
 perdu.
 
 
-Chapter 1:
+Chapter 1:          La Rencontre
 Elle se retrouve dans son école secondaire, le jour où tout a commencé. 
 Il est là, ce garçon mystérieux, le sourire aux lèvres. La jeune femme se souvient 
 à quel point son cœur battait pour lui, mais aussi des maladresses qui l'ont empêchée 
@@ -47,11 +47,91 @@ pour savoir ce qui va se passer
 5- choix de bonne phrase a lui dire
 
 
+Chapitre 2 :            Histoire d’amour folle
+Leur histoire prend forme dans un tourbillon d'émotions. Ils partagent des moments uniques, 
+des éclats de rire, mais aussi des désaccords. Revivre ces souvenirs permet à la jeune femme 
+de comprendre à quel point leurs hauts et leurs bas faisaient partie de leur relation intense.
 
-Chapter 2: 
+Énigmes du chapitre 2 :
+
+Reconstituer une photo :
+Une photo souvenir est découpée en morceaux. L'utilisateur doit la reconstituer pour découvrir un 
+indice.
+Exemple technique : Puzzle interactif avec des éléments positionnables en CSS/JS.
+
+Trouver l’objet caché :
+Une pièce est remplie d'objets. L'utilisateur doit cliquer sur celui qui correspond à un souvenir 
+clé.
+Exemple technique : Image cliquable avec zones interactives.
+
+Combiner des objets :
+L'utilisateur doit associer des objets de leur histoire (ex. : fleurs, lettres, livres) pour créer 
+un moment clé.
+Exemple technique : Drag-and-drop ou combinaison logique en JS.
+
+Choisir le bon chemin :
+Plusieurs chemins s'offrent à elle pour rejoindre le garçon. Un seul est correct. Chaque mauvais 
+choix ramène au début.
+Exemple technique : Boutons ou liens avec conditions JS.
+
+Compléter une phrase d’amour :
+Une phrase leur appartenant est partiellement effacée. L'utilisateur doit entrer les mots manquants.
+Exemple technique : Zone de texte avec vérification JS.
 
 
-Chapter 3: 
+
+Chapitre 3 :                Le mariage
+Ils se retrouvent au sommet de leur bonheur : le mariage. Le jour est parfait, mais des doutes viennent 
+assombrir l’esprit de la jeune femme. A-t-elle fait les bons choix ? Est-ce bien la vie qu’elle veut ?
+
+Énigmes du chapitre 3 :
+
+Ordonner une liste d’invités :
+Les noms des invités sont mélangés, et l'utilisateur doit les réorganiser en fonction d’indices.
+Exemple technique : Drag-and-drop.
+
+Trouver les alliances :
+Les alliances sont cachées dans une scène, et l'utilisateur doit cliquer dessus.
+Exemple technique : Image interactive avec zones sensibles.
+
+Écrire un vœu :
+L'utilisateur doit taper un texte qui correspond au style des vœux de mariage 
+(par exemple : "Amour, fidélité, avenir").
+Exemple technique : Zone de texte avec mots-clés à valider.
+
+Allumer les bougies :
+Plusieurs bougies sont affichées, mais seules certaines doivent être allumées dans le bon ordre pour 
+que la cérémonie puisse commencer.
+Exemple technique : Boutons avec validation JS.
+
+Composer une musique :
+Une mélodie symbolique doit être rejouée en cliquant sur des touches dans le bon ordre.
+Exemple technique : Éléments cliquables jouant des sons.
+
+Chapitre final : Le réveil
+Après avoir échangé leurs vœux, la jeune femme se réveille brutalement. Elle réalise que tout cela 
+n'était qu'un rêve. Elle comprend alors ce qu'elle a perdu en quittant cet homme une semaine plus 
+tôt. Une décision cruciale l’attend : reprendre contact avec lui ou continuer sa vie.
+
+Énigmes du chapitre final :
+
+Reconstituer un journal intime :
+Des morceaux de son journal intime sont éparpillés. L'utilisateur doit les rassembler pour découvrir 
+ses pensées.
+
+Choisir un message à envoyer :
+Plusieurs brouillons de messages sont proposés. L'utilisateur doit choisir celui qui reflète le mieux 
+ses sentiments.
+
+Réparer une horloge :
+Une horloge arrêtée doit être remise à l'heure en utilisant des indices temporels du rêve.
+
+Résoudre une équation émotionnelle :
+Une série de questions sur ses souvenirs conduit à une équation qui dévoile son choix final.
+
+Faire le dernier choix :
+L'utilisateur doit cliquer sur une des deux options pour terminer l’histoire : "Recontacter le garçon" 
+ou "Continuer sa vie".
 
 
 Chapter Final: 
