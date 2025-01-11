@@ -11,21 +11,62 @@
         <h1>Bienvenue dans ce jeu d'énigme</h1>
         <nav id="navigation">
             <ul>
-                <li><a href="./history.html">Histoire</a></li>
-                <li><a href="./question.html">Questions</a></li>
+                <li><a href="./history.html">📖 Histoire</a></li>
+                <li><a href="./question.html">Questions❓</a></li>
             </ul>
         </nav>
-
     </header>
 
     <main>
-        <p>Ce jeux n'ai destiné a personne d'autre mais les réponses sont parfois
-            mieux résolus à plusieurs.</p>
-        </p>
+        <p>Ce jeu n'est destiné à personne d'autre, mais les réponses sont parfois mieux résolues à plusieurs.</p>
+        <section id="chapter1">
+            <div id="image-container">
+                <h2>Chapter 1</h2>
+                <img src="./picture/chapter1.webp" alt="Image chapitre 1" class="clickable-image" data-popup="popup1">
+            </div>
+            <div id="popup1" class="popup">
+                <div class="popup-content">
+                    <h2>Entrez le code pour passer au chapitre suivant</h2>
+                    <input type="text" id="code-input1" placeholder="Code secret">
+                    <button class="submit-code" data-popup="popup1">Valider</button>
+                    <button class="close-popup" data-popup="popup1">Fermer</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="chapter2">
+            <div id="image-container">
+                <h2>Chapter 2</h2>
+                <img src="./picture/chapter2.webp" alt="Image chapitre 2" class="clickable-image" data-popup="popup2">
+            </div>
+            <div id="popup2" class="popup">
+                <div class="popup-content">
+                    <h2>Entrez le code pour passer au chapitre suivant</h2>
+                    <input type="text" id="code-input2" placeholder="Code secret">
+                    <button class="submit-code" data-popup="popup2">Valider</button>
+                    <button class="close-popup" data-popup="popup2">Fermer</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="chapter3">
+            <div id="image-container">
+                <h2>Chapter 3</h2>
+                <img src="./picture/chapter3.webp" alt="Image chapitre 3" class="clickable-image" data-popup="popup3">
+            </div>
+            <div id="popup3" class="popup">
+                <div class="popup-content">
+                    <h2>Entrez le code pour passer au chapitre suivant</h2>
+                    <input type="text" id="code-input3" placeholder="Code secret">
+                    <button class="submit-code" data-popup="popup3">Valider</button>
+                    <button class="close-popup" data-popup="popup3">Fermer</button>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>
-
+        <!-- Footer content if needed -->
     </footer>
 
     <script src="./script/scriptHub.js"></script>    
