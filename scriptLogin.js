@@ -6,7 +6,7 @@ loginBtn.addEventListener('click', function () {
     const stanElement = document.querySelector("stan");
 
     if (id === "titouan" && pwd === "code") {
-        window.location.href = "../Hub/principal.html";
+        window.location.href = "./test.html";
     } else {
         stanElement.classList.add("error");
         setTimeout(() => {
