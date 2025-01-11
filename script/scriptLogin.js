@@ -10,7 +10,9 @@ loginBtn.addEventListener('click', function () {
 
     if (id === "i" && pwd === "jklm") {
         window.location.href = "./hub.html";
-    } else {
+    } else if (id === "maman" && pwd === "prat") {
+        window.location.href = "./question.hhtml";
+    }else {
         formulaire.style.backgroundColor = "red";
         errorMsg.style.display = "block";
         setTimeout(() => {
