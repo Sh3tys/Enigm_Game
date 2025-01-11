@@ -5,8 +5,8 @@ loginBtn.addEventListener('click', function () {
     const pwd = document.getElementById("mdp").value;
     const stanElement = document.querySelector("stan");
 
-    if (id === "titouan" && pwd === "code") {
-        window.location.href = "./history.html";
+    if (id === "i" && pwd === "jklm") {
+        window.location.href = "./hub.html";
     } else {
         stanElement.classList.add("error");
         setTimeout(() => {
