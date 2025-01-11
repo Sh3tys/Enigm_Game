@@ -7,13 +7,20 @@
     <link rel="stylesheet" href="./style/styleLogin.css">
 </head>
 <body>
-    <stan> Bienvenue <br>
-        veuillez vous connectez </stan>
-    <section id="login">
-        <input type="identifiant" id="identifiant" placeholder="Identifiant">
+    <div class="welcome-bubble">
+        Bienvenue <br>
+        veuillez vous connecter <br>
+        <button id="login-btn">Se connecter</button>
+    </div>
+
+    <section id="login" class="hidden">
+        <input type="text" id="identifiant" placeholder="Identifiant">
         <input type="password" id="mdp" placeholder="Mot de Passe">
-        <button id="connexion-btn">Sign in</button>
+        <button id="connexion-btn">Se connecter</button>
+        <button id="close-btn">Fermer</button>
+        <span id="error-msg">identifiant ou mot de passe faux</span>
     </section>
+
     <script src="./script/scriptLogin.js"></script>
 </body>
 </html>

@@ -1,4 +1,7 @@
 const loginBtn = document.getElementById('connexion-btn');
+const formulaire = document.getElementById("login")
+const close = document.getElementById("close-btn");
+const errorMsg = document.getElementById("error-msg");
 
 loginBtn.addEventListener('click', function () {
     const id = document.getElementById("identifiant").value;
@@ -8,10 +11,20 @@ loginBtn.addEventListener('click', function () {
     if (id === "i" && pwd === "jklm") {
         window.location.href = "./hub.html";
     } else {
-        stanElement.classList.add("error");
+        formulaire.style.backgroundColor = "red";
+        errorMsg.style.display = "block";
         setTimeout(() => {
-            stanElement.classList.remove("error");
-        }, 2000);
+            formulaire.style.backgroundColor = "white";
+            errorMsg.style.display = "block";
+        }, 200);
     }
 });
 
+document.getElementById("login-btn").addEventListener("click", function() {
+
+    formulaire.style.display = "block";
+});
+
+close.addEventListener("click", function() {
+    formulaire.style.display = "none";
+});

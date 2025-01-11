@@ -1,11 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chapter 1</title>
+    <title>login</title>
+    <link rel="stylesheet" href="./style/styleLogin.css">
 </head>
 <body>
+    <div class="welcome-bubble">
+        Bienvenue <br>
+        veuillez vous connecter
+    </div>
     
+    <button id="login-btn">Se connecter</button>
+
+    <section id="login" class="hidden">
+        <input type="text" id="identifiant" placeholder="Identifiant">
+        <input type="password" id="mdp" placeholder="Mot de Passe">
+        <button id="connexion-btn">Se connecter</button>
+    </section>
+
+    <script src="./script/scriptLogin.js"></script>
 </body>
 </html>
