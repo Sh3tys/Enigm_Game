@@ -188,6 +188,19 @@ main {
     background-color: #666;
 }
 
+#chapterFinal {
+    margin-top: 2rem;
+}
+
+#chapterFinal h2 {
+    color: #ff4500; /* Changer la couleur pour marquer le final */
+}
+
+#chapterFinal .clickable-image {
+    border: 3px solid #ff4500; /* Ajouter un bord pour le final */
+}
+
+
 footer {
     text-align: center;
     padding: 1rem;
