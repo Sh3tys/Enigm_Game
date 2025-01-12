@@ -103,13 +103,20 @@ main {
 }
 
 #resultStep2 {
-    width: 43px;
+    width: 130px;
 }
 
 #etape3 {
     display: none;
 }
 
+#historyEtape3 {
+    background: #fff7f7;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
 
 
 footer {

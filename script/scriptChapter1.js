@@ -1,6 +1,7 @@
 
 const resultEtape1 = document.getElementById('resultStep1');
 const resultEtape2 = document.getElementById('resultStep2');
+const resultEtape3 = document.getElementById('resultStep3');
 const etape2 = document.getElementById('etape2');
 const etape3 = document.getElementById('etape3');
 //const etape4 = document.getElementById('resultStep4');
@@ -23,7 +24,7 @@ btn1.addEventListener('click',function(){
 });
 
 btn2.addEventListener('click',function() {
-    if (resultEtape2.value === '-2, -133') {
+    if (resultEtape2.value === '26 21_36 17 25 29 21') {
         etape3.style.display = 'block';
         resultEtape2.readOnly = true; // retire la modification possible
         btn2.style.display = 'none';
@@ -31,17 +32,17 @@ btn2.addEventListener('click',function() {
         resultEtape2.value = '';
     }
 });
-/*
+
 btn3.addEventListener('click',function() {
-    if (etape1.value === '16') {
-        etape2.style.display = 'block';
-        etape1.readOnly = true; // retire la modification possible
+    if (resultEtape3.value === 'amour') {
+        etape4.style.display = 'block';
+        resultEtape3.readOnly = true; // retire la modification possible
         btn3.style.display = 'none';
     } else {
-        etape1.value = '';
+        resultEtape3.value = '';
     }
 });
-
+/*
 btn4.addEventListener('click',function() {
     if (etape1.value === '16') {
         etape2.style.display = 'block';
