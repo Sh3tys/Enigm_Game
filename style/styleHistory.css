@@ -71,6 +71,71 @@ nav ul li a:hover::after {
     transform-origin: left;
 }
 
+/* Style pour le conteneur audio */
+#audio-page {
+    position: absolute;
+    top: 10px;
+    right: 10px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+/* Bouton principal */
+#audioControl {
+    background-color: #ff7f50;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.3s ease-in-out;
+}
+
+/* Effet au survol */
+#audioControl:hover {
+    transform: scale(1.1);
+    background-color: #ff6347;
+}
+
+/* Effet enfoncé */
+#audioControl:active {
+    transform: scale(0.95);
+    background-color: #e55d3d;
+}
+
+/* Image à l'intérieur du bouton */
+#buttonImage {
+    width: 40px;
+    height: 40px;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Animation au survol */
+#audioControl:hover #buttonImage {
+    transform: rotate(10deg);
+}
+
+
+/* Image à l'intérieur du bouton */
+#buttonImage {
+    width: 40px; /* Taille de l'icône */
+    height: 40px;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3)); /* Légère ombre portée */
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Animation au survol */
+#audioControl:hover #buttonImage {
+    transform: rotate(10deg); /* L'icône bouge légèrement */
+}
+
 main {
     padding: 2rem 5%;
     animation: fadeInUp 1.5s ease-out;
