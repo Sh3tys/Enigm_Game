@@ -87,14 +87,23 @@ main {
 
 #resultStep1 {
     width: 15px;
+    margin-bottom: 10px;
 }
 
 #etape2 {
     display: none;
 }
 
+#historyEtape2 {
+    background: #fff7f7;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
 #resultStep2 {
-    width: 15px;
+    width: 43px;
 }
 
 #etape3 {

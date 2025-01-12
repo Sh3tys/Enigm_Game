@@ -23,7 +23,7 @@ btn1.addEventListener('click',function(){
 });
 
 btn2.addEventListener('click',function() {
-    if (resultEtape2.value === '7, -124') {
+    if (resultEtape2.value === '2, -133') {
         etape3.style.display = 'block';
         resultEtape2.readOnly = true; // retire la modification possible
         btn2.style.display = 'none';
