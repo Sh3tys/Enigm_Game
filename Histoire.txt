@@ -147,3 +147,20 @@ reve ou laissé et reprendre sa vie.
 
 
 
+idee epreuve
+reconnaitre un song une mélodie
+
+un lieux (vrai photo)
+
+faire un calcule de coordonné gps qu'il devra trouver
+-17.529513059878063, -149.5496449493151 : Lycee Diademe
+
+(
+    a la toute fin
+    faire local storage pour chapter 4 code complete
+    puis faire bouton pour laisser le choix de
+    vouloir qu'elle continue ou non
+    si non mettre END sinon faire pop le chapitre
+    Final.
+)
+
