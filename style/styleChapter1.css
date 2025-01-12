@@ -85,7 +85,19 @@ main {
     margin-bottom: 2rem;
 }
 
+#resultStep1 {
+    width: 15px;
+}
+
 #etape2 {
+    display: none;
+}
+
+#resultStep2 {
+    width: 15px;
+}
+
+#etape3 {
     display: none;
 }
 
