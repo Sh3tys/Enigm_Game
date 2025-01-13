@@ -170,6 +170,18 @@ main {
     display: none;
 }
 
+#etape4 {
+    display: none;
+}
+
+
+#etape5 {
+    display: none;
+}
+
+#end {
+    display: none;
+}
 
 footer {
     text-align: center;
