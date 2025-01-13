@@ -183,6 +183,31 @@ main {
     display: none;
 }
 
+#end-challenge{
+   display: none;
+}
+
+#tp-chap2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #ff7f50;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+#welcome-btn:hover {
+    background-color: #ff6347;
+}
+
+#welcome-btn:active {
+    background-color: #e55d3d;
+}
+
 footer {
     text-align: center;
     padding: 1rem;

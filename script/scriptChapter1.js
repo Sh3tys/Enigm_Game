@@ -10,12 +10,14 @@ const etape3 = document.getElementById('etape3');
 const etape4 = document.getElementById('etape4');
 const etape5 = document.getElementById('etape5');
 const end = document.getElementById('end');
+const Finchallenge = document.getElementById('end-challenge');
 
 const btn1 = document.getElementById('btn1');
 const btn2 = document.getElementById('btn2');
 const btn3 = document.getElementById('btn3');
 const btn4 = document.getElementById('btn4');
 const btn5 = document.getElementById('btn5');
+const btnTpChap2 = document.getElementById('tp-chap2');
 
 const buttonIds = ["btnPad1", "btnPad2", "btnPad3", "btnPad4", "btnPad5", "btnPad6", "btnPad7", "btnPad8", "btnPad9", "btnPad0"];
 
@@ -75,6 +77,7 @@ btn4.addEventListener('click',function() {
 btn5.addEventListener('click',function() {
     if (resultEtape5.value === 'je taime') {
         end.style.display = 'block';
+        Finchallenge.style.display = 'block';
         resultEtape5.readOnly = true; // retire la modification possible
         btn5.style.display = 'none';
     } else {
@@ -82,6 +85,9 @@ btn5.addEventListener('click',function() {
     }
 });
 
+btnTpChap2.addEventListener('click', function() {
+    window.location.href = "./chapter2.html";
+});
 
 
 
